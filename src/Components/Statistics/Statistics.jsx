@@ -9,16 +9,13 @@ const Statistics = ({
   percantage = 0,
 }) => {
   return (
-    <div className={s.Statistics}>
-      <h2 className={s.head}>Statistics</h2>
-      <ul className={s.feedback_list}>
-        <li className={s.feedback_item}>Good: {good}</li>
-        <li className={s.feedback_item}>Neutral: {neutral}</li>
-        <li className={s.feedback_item}>Bad: {bad}</li>
-        <li className={s.feedback_item}>Total: {total}</li>
-        <li className={s.feedback_item}>Positive feedback: {percantage}</li>
-      </ul>
-    </div>
+    <ul className={s.feedback_list}>
+      <li className={s.feedback_item}>Good: {good}</li>
+      <li className={s.feedback_item}>Neutral: {neutral}</li>
+      <li className={s.feedback_item}>Bad: {bad}</li>
+      <li className={s.feedback_item}>Total: {total}</li>
+      <li className={s.feedback_item}>Positive feedback: {percantage}</li>
+    </ul>
   );
 };
 export default Statistics;

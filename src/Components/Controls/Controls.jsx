@@ -1,5 +1,5 @@
 import React from 'react';
-import Buttons from './Buttons/Buttons';
+import Buttons from '../FeedbackOptions/FeedbackOptions';
 import s from './Controls.module.css';
 import Statistics from '../Statistics/Statistics';
 import Notification from '../Notification/Notification';
