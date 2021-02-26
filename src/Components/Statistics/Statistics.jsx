@@ -1,4 +1,4 @@
-import React from 'react';
+import PropTypes from 'prop-types';
 import s from './Statistics.module.css';
 
 const Statistics = ({
@@ -17,5 +17,13 @@ const Statistics = ({
       <li className={s.feedback_item}>Positive feedback: {percantage}</li>
     </ul>
   );
+};
+
+Statistics.propTypes = {
+  good: PropTypes.number.isRequired,
+  neutral: PropTypes.number.isRequired,
+  bad: PropTypes.number.isRequired,
+  total: PropTypes.number.isRequired,
+  percantage: PropTypes.number.isRequired,
 };
 export default Statistics;
