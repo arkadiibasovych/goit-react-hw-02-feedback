@@ -1,0 +1,20 @@
+.btn_container {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.button {
+  width: 75px;
+
+  cursor: pointer;
+  outline: none;
+
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.button:active {
+  background-color: tomato;
+  box-shadow: 2px 5px 2px 0 rgb(0 0 0 / 0.5);
+}

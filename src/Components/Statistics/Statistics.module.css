@@ -1,3 +1,7 @@
 .feedback_item {
   list-style: none;
 }
+
+.feedback_list {
+  padding: 0px;
+}

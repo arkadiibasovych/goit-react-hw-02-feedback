@@ -1,0 +1,13 @@
+.section {
+  width: 400px;
+  padding: 20px;
+  margin-left: 100px;
+}
+
+.head {
+  margin: 0px;
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
