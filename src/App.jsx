@@ -1,13 +1,13 @@
-import React from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import Section from './Components/Section/Section';
-import FeedbackOptions from './Components/FeedbackOptions/FeedbackOptions';
-import Statistics from './Components/Statistics/Statistics';
-import Notification from './Components/Notification/Notification';
+import Section from './Components/Section';
+import FeedbackOptions from './Components/FeedbackOptions';
+import Statistics from './Components/Statistics';
+import Notification from './Components/Notification';
 
 const options = ['good', 'neutral', 'bad'];
 
-class App extends React.Component {
+class App extends Component {
   state = {
     good: 0,
     neutral: 0,
